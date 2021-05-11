@@ -1,4 +1,4 @@
-# Affinidi Use Case Implementation - Driving License - Issuer
+# Easy Loans
 
 ## Table of contents
 
@@ -13,11 +13,8 @@
 - [How to run](#how-to-run)
   - [Sequence](#sequence)
 
-## Introduction
 
-Welcome to Driving License Use Case - Issuer application. In this application, you will experience how does a normal applicant would like to sign up for a verifiable credential and thereafter how a Issuer checks the information and issues a verifiable credential to the applicant.
-
-You can either run this program in your local machine or try it out here: https://usecases.drivinglicense-issuer.vc-generator.com/
+You can either run this program in your local machine or try it out here: http://witness.verifiable-credential.tech/
 
 ## Initial Set Up
 
@@ -94,7 +91,3 @@ REACT_APP_EMAIL_JS_USER_ID=<<EmailJs user ID>>
 3. Run `cp .env.example .env`
 4. Populate the credentials in `.env`
 5. Run `npm start`
-
-### Sequence
-
-Run Issuer, Holder and Verifier in this sequence in your local machine.
